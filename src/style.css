@@ -19,10 +19,41 @@ header {
 }
 .flex1 {
   display: flex !important;
-}
-.flex-items-center {
+  text-decoration: none !important;
   align-items: center !important;
 }
-.ml-auto {
+
+.twitter {
   margin-left: auto;
+}
+.one {
+  font-weight: 500;
+  font-family: 'Alliance No.1';
+  font-feature-settings: 'ss02' on, 'ss01' on;
+  font-size: 16px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  margin-right: 24px !important;
+}
+
+.home {
+  text-decoration: none !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  margin-right: 24px !important;
+}
+.faq {
+  text-decoration: none !important;
+  margin-right: 24px !important;
+}
+.rss {
+  text-decoration: none !important;
+}
+.twitter {
+  text-decoration: none !important;
+  margin-right: 24px !important;
+}
+.github {
+  text-decoration: none !important;
+  margin-right: 24px !important;
 }
