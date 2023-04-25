@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Octodex</title>
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/screen.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="one">
+        <ul class="left">
           <li>
             <a href="#"
               ><img
@@ -26,11 +26,10 @@
           <li><a href="#">Home</a></li>
           <li><a href="https://octodex.github.com/faq/">FAQ</a></li>
         </ul>
-        </ul>
       </nav>
 
-      <nav>
-        <ul>
+      <nav class="two">
+        <ul class="Right">
           <li>
             <a href="https://twitter.com/githubdesign">Follow us on Twitter</a>
           </li>
@@ -285,10 +284,9 @@
     </main>
     <footer>
       <div>
-        <p>
-          © 2013 – 2020 GitHub, Inc. All rights reserved.
-        </p>
+        <p>© 2013 – 2020 GitHub, Inc. All rights reserved.</p>
       </div>
     </footer>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
