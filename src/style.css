@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   color: #24292e;
 }
+
 header {
   margin-bottom: 40px;
   background-color: rgba(255, 255, 255, 0.75);
@@ -17,6 +18,25 @@ header {
   line-height: 21px;
   z-index: auto;
 }
+.flex-wrap {
+  display: grid !important;
+
+  grid-gap: 2vw;
+}
+.flex-wrap > div {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  font-size: 2vw;
+  padding: 2em;
+  background: none;
+  text-align: center;
+}
+div {
+  text-decoration: none !important;
+}
+
 .flex1 {
   display: flex !important;
   text-decoration: none !important;
